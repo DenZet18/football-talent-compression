@@ -1,1 +1,25 @@
+leagues:
+  - code: EPL
+    name: English Premier League
+    season_start: 2000
+    season_end: 2024
 
+  - code: LALIGA
+    name: La Liga
+    season_start: 2000
+    season_end: 2024
+
+  - code: SERIEA
+    name: Serie A
+    season_start: 2000
+    season_end: 2024
+
+  - code: BUNDESLIGA
+    name: Bundesliga
+    season_start: 2000
+    season_end: 2024
+
+  - code: LIGUE1
+    name: Ligue 1
+    season_start: 2000
+    season_end: 2024
