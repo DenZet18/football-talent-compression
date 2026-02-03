@@ -6,3 +6,18 @@ Over the past two decades, elite football has undergone significant tactical, ph
 Using season-level data from the English Premier League, La Liga, Serie A, Bundesliga, and Ligue 1 spanning 2000 to 2024, this study operationalizes ceiling as relative individual dominance within a league and floor as the competitive strength and consistency of weaker teams. Rather than evaluating absolute quality, the analysis focuses on distributional change, examining how variance, dominance shares, and performance dispersion have evolved over time within each league.
 To support reproducibility and extensibility, the project is implemented as a modular data pipeline housed in a public GitHub repository. This pipeline ingests league and player-season data, computes floor and ceiling metrics consistently across competitions, and generates comparative visualizations tracking distributional trends over time. The results are presented in a long-form article that contextualizes the findings within broader tactical and structural shifts in modern football.
 By reframing player quality as a distribution rather than a ranking, this project provides a framework for understanding why modern football may appear simultaneously more competitive and less individually expressive. The methodology is designed to be extensible to other competitions, including Major League Soccer, where structural parity mechanisms may produce distinct compression dynamics.
+
+# Project Scope
+- Leagues: EPL, La Liga, Serie A, Bundesliga, Ligue 1
+- Seasons: 2000–2024
+- Focus: Individual player talent distribution (floor vs ceiling)
+- Output: Reproducible analysis pipeline + long-form article
+
+# Pipeline Overview
+1. Ingest raw player and team data by league and season
+2. Standardize schemas and assign position groups
+3. Compute role-specific floor and ceiling metrics
+4. Aggregate results across seasons and leagues
+5. Visualize talent compression trends
+
+Status: Phase 2 (Data & Engineering Design)
