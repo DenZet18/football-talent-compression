@@ -1,7 +1,7 @@
 # football-talent-compression
 Has elite football experienced talent distribution compressed over time, with a rising floor and a narrowing ceiling?
 
-#Abstract
+# Abstract
 Over the past two decades, elite football has undergone significant tactical, physical, and organizational change. While contemporary players benefit from improved coaching, conditioning, and tactical structure, there is growing debate over whether modern football produces fewer truly dominant individuals than previous eras. This project investigates whether elite football has experienced talent distribution compression, a phenomenon characterized by a rising minimum standard of performance (the “floor”) alongside a narrowing gap between the very best players and the league average (the “ceiling”).
 Using season-level data from the English Premier League, La Liga, Serie A, Bundesliga, and Ligue 1 spanning 2000 to 2024, this study operationalizes ceiling as relative individual dominance within a league and floor as the competitive strength and consistency of weaker teams. Rather than evaluating absolute quality, the analysis focuses on distributional change, examining how variance, dominance shares, and performance dispersion have evolved over time within each league.
 To support reproducibility and extensibility, the project is implemented as a modular data pipeline housed in a public GitHub repository. This pipeline ingests league and player-season data, computes floor and ceiling metrics consistently across competitions, and generates comparative visualizations tracking distributional trends over time. The results are presented in a long-form article that contextualizes the findings within broader tactical and structural shifts in modern football.
