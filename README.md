@@ -65,3 +65,10 @@ These findings suggest that modern football has not necessarily produced worse p
 
 By framing player quality as a distribution rather than a ranking, this project provides a lens for understanding why contemporary football may feel both more competitive and less individually expressive. The methodology is designed to generalize to other leagues and competitive structures, offering a foundation for future comparative and cross-league analysis.
 
+### Quantitative Summary (EPL 2015–2024)
+
+Across all positions, the average performance of lower-quartile regular players remained within approximately one standard deviation of the positional mean (mean floor ranging from −0.65 to −0.81). This indicates a consistently high baseline level of competence across the league.
+
+Ceiling dominance varied substantially by position. Midfielders exhibited the highest average ceiling (mean z = 5.41), while defenders and goalkeepers showed much smaller and more stable ceilings. Trend analysis suggests that midfield talent experienced the clearest compression over time, driven by a decline in extreme elite dominance alongside a stable floor. In contrast, attacking ceilings remained volatile but did not show sustained growth or collapse, while defensive and goalkeeping roles displayed the narrowest and most stable performance distributions.
+
+Together, these results support the interpretation that modern Premier League talent compression is primarily driven by rising and stabilized floors, with position-dependent changes in elite dominance rather than a universal decline in top-end quality.
