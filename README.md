@@ -1,5 +1,6 @@
 # Football Talent Compression in the Premier League
 Has elite football experienced talent distribution compressed over time, with a rising floor and a narrowing ceiling?
+
 ![Python](https://img.shields.io/badge/python-3.9+-blue)
 ![Status](https://img.shields.io/badge/status-v1.0%20complete-brightgreen)
 ![Scope](https://img.shields.io/badge/scope-EPL%202015--2024-orange)
