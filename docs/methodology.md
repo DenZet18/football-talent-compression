@@ -15,3 +15,6 @@ Compression
 
 # Planned Extensions
 A position-weighted, WAR-style composite impact metric is planned as a follow-up project for later seasons where richer event data is available.
+
+# Notes
+The initial implementation focuses on the English Premier League as a case study. The methodology is designed to generalize to other leagues with similar player-season data.
