@@ -89,3 +89,7 @@ This project is intentionally exploratory and focuses on descriptive distributio
 - **Z-score standardization:** Standardization is performed within season and position groups, emphasizing relative dominance rather than absolute quality changes over time.
 
 Future work will extend this framework to other top European leagues and Major League Soccer, enabling cross-league comparison of compression dynamics under different competitive and structural conditions. Additional extensions include WAR-style composite metrics, alternative percentile-based floor definitions, and role-sensitive weighting schemes to capture more nuanced forms of player impact.
+
+- Methodological details: see [`docs/methodology.md`](docs/methodology.md)
+- Processed metrics: [`data/processed/metrics_epl_2015_2024.csv`](data/processed/metrics_epl_2015_2024.csv)
+- Reproducible analysis notebook: [`notebooks/exploration.ipynb`](notebooks/exploration.ipynb)
