@@ -8,6 +8,7 @@ To support reproducibility and extensibility, the project is implemented as a mo
 By reframing player quality as a distribution rather than a ranking, this project provides a framework for understanding why modern football may appear simultaneously more competitive and less individually expressive. The methodology is designed to be extensible to other competitions, including Major League Soccer, where structural parity mechanisms may produce distinct compression dynamics.
 
 # Project Scope
+- Data coverage (current implementation): Premier League, 2015–16 to 2023–24
 - Leagues: EPL, La Liga, Serie A, Bundesliga, Ligue 1
 - Seasons: 2000–2024
 - Focus: Individual player talent distribution (floor vs ceiling)
