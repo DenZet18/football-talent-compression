@@ -57,6 +57,14 @@ By reframing player quality as a distribution rather than a ranking, this projec
 - **Goalkeepers (GK):**  
   Goalkeepers show the most pronounced floor stabilization of all positions. Although elite shot-stopping seasons still emerge, the positional floor remains consistently close to the league average, indicating a narrowing gap between starting-level goalkeepers. Advances in goalkeeper coaching and recruitment likely contribute to this trend.
 
+### Quantitative Summary (EPL 2015–2024)
+
+Across all positions, the average performance of lower-quartile regular players remained within approximately one standard deviation of the positional mean (mean floor ranging from −0.65 to −0.81). This indicates a consistently high baseline level of competence across the league.
+
+Ceiling dominance varied substantially by position. Midfielders exhibited the highest average ceiling (mean z = 5.41), while defenders and goalkeepers showed much smaller and more stable ceilings. Trend analysis suggests that midfield talent experienced the clearest compression over time, driven by a decline in extreme elite dominance alongside a stable floor. In contrast, attacking ceilings remained volatile but did not show sustained growth or collapse, while defensive and goalkeeping roles displayed the narrowest and most stable performance distributions.
+
+Together, these results support the interpretation that modern Premier League talent compression is primarily driven by rising and stabilized floors, with position-dependent changes in elite dominance rather than a universal decline in top-end quality.
+
 ## Conclusion
 
 Across all positions, the Premier League shows strong evidence of talent distribution compression over the 2015–16 to 2023–24 period. While exceptional individual seasons continue to occur, elite dominance has become more volatile rather than structurally persistent. At the same time, the baseline level of performance among regular players has risen or stabilized across every position group.
@@ -65,10 +73,14 @@ These findings suggest that modern football has not necessarily produced worse p
 
 By framing player quality as a distribution rather than a ranking, this project provides a lens for understanding why contemporary football may feel both more competitive and less individually expressive. The methodology is designed to generalize to other leagues and competitive structures, offering a foundation for future comparative and cross-league analysis.
 
-### Quantitative Summary (EPL 2015–2024)
+## Limitations & Future Work
 
-Across all positions, the average performance of lower-quartile regular players remained within approximately one standard deviation of the positional mean (mean floor ranging from −0.65 to −0.81). This indicates a consistently high baseline level of competence across the league.
+This project is intentionally exploratory and focuses on descriptive distributional trends rather than causal inference. Several limitations are worth noting:
 
-Ceiling dominance varied substantially by position. Midfielders exhibited the highest average ceiling (mean z = 5.41), while defenders and goalkeepers showed much smaller and more stable ceilings. Trend analysis suggests that midfield talent experienced the clearest compression over time, driven by a decline in extreme elite dominance alongside a stable floor. In contrast, attacking ceilings remained volatile but did not show sustained growth or collapse, while defensive and goalkeeping roles displayed the narrowest and most stable performance distributions.
+- **League scope:** The current implementation focuses exclusively on the English Premier League (2015–16 to 2023–24). While the methodology is designed to generalize, results should not be assumed to apply uniformly across other leagues without replication.
+- **Metric selection:** Position-specific impact metrics are based on available counting statistics and do not capture all aspects of player value, such as off-ball movement, spatial control, or tactical influence.
+- **Regular-player filter:** Floor estimates are restricted to players meeting a minimum appearances threshold, which may exclude fringe contributors and late-season replacements.
+- **No causal attribution:** Observed compression patterns are descriptive and do not establish causal links to tactical trends, financial structures, or developmental systems.
+- **Z-score standardization:** Standardization is performed within season and position groups, emphasizing relative dominance rather than absolute quality changes over time.
 
-Together, these results support the interpretation that modern Premier League talent compression is primarily driven by rising and stabilized floors, with position-dependent changes in elite dominance rather than a universal decline in top-end quality.
+Future work will extend this framework to other top European leagues and Major League Soccer, enabling cross-league comparison of compression dynamics under different competitive and structural conditions. Additional extensions include WAR-style composite metrics, alternative percentile-based floor definitions, and role-sensitive weighting schemes to capture more nuanced forms of player impact.
